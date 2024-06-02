@@ -1,0 +1,15 @@
+{
+  "name": "practica7",
+  "version": "1.0.0",
+  "description": "Autenticacion y Autorizacion en SSR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronaldo Rodriguez C",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
