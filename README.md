@@ -1,4 +1,4 @@
-
+Author: Ronaldo Rodriguez C.
 # Introducción a Server Side Rendering (SSR)
 
 ## Teoría
