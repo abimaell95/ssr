@@ -8,7 +8,7 @@ export async function connectToDatabase() {
     if (cachedClient && cachedDb) {
         return { client: cachedClient, db: cachedDb };
     }
-
+     console.log ('Este es mongouri',process.env.MONGODB_URI)
     const client = await MongoClient.connect(process.env.MONGODB_URI, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
@@ -20,4 +20,6 @@ export async function connectToDatabase() {
     cachedDb = db;
 
     return { client, db };
+    return true;
+
 }
