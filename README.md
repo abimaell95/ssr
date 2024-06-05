@@ -108,6 +108,7 @@ Vamos a crear un servidor básico usando Express.js para servir contenido HTML.
 
    Abre tu navegador y visita `http://localhost:3000` para ver el mensaje "Hello from Server Side Rendering!".
 
+
 ### Ejemplo de CSR
 
 1. **Crear una aplicación React**
@@ -140,7 +141,7 @@ Vamos a crear un servidor básico usando Express.js para servir contenido HTML.
 
    Abre tu navegador y visita `http://localhost:3000` para ver el mensaje "Hello from Client Side Rendering!".
 
-
+![Corrida de NEXT](image.png)
 # Herramientas y Frameworks para SSR
 
 ## Teoría
